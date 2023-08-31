@@ -1,4 +1,4 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram } from "@mui/icons-material";
+import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, EmailOutlined, Facebook, Twitter, Instagram } from "@mui/icons-material";
 
 export const navlink = [
   {
@@ -115,7 +115,7 @@ export const project = [
 ];
 
 
-import d1 from "../../assets/port/demo.png";
+import d1 from '../../assets/port/demo.png';
 import d2 from "../../assets/port/d2.jpg";
 import d3 from "../../assets/port/d3.jpg";
 import d4 from "../../assets/port/d4.jpg";
@@ -195,41 +195,52 @@ export const social = [
 
 
 
+export function getAssetPath(path) {
+  return `${import.meta.env.BASE_URL}${path}`;
+}
+
+
+import react from '../../assets/port/react.png';
+import js from "../../assets/port/js.png";
+import html from "../../assets/port/html.png";
+import css from "../../assets/port/css.png";
+import boot from "../../assets/port/boot.png";
+import git from "../../assets/port/git.png";
 
 
 
 export const card = [
   {
     id: 1,
-    image: '/assets/react.png',
-    h: 'Dynamic Web Pages',
+    image: react,
+   h: 'Dynamic Web Pages',
     
   },
   {
     id: 2,
-    image: '/assets/js.png' ,
+    image: js ,
     h: 'Interactive Experiences' ,
   },
   {
     id: 3,
-    image: '/assets/html.png' ,
+    image: html ,
     h: 'Structured Foundations' ,
   },
   {
     id: 4,
-    image: '/assets/css.png',
+    image: css,
     h: 'Stylish & Responsive Designs'
     
   },
   {
     id: 5,
-    image:  '/assets/boot.png',
+    image:  boot,
     h: 'Rapid & Responsive Development',
    
   },
   {
     id: 6,
-    image: '/assets/git.png',
+    image: git,
     h: 'Collaborative & Version-Controlled',
     
   }

@@ -12,8 +12,8 @@ const Contact = () => {
                 <div className="right">
                     <form>
                         <div className="flex">
-                            <input type="text" placeholder='Name' data-aos="zoom-in-down" />
-                            <input type="email" placeholder='Email' data-aos="zoom-in-up"/>
+                            <input type="text" placeholder='Name' data-aos="zoom-in-down" className='text_email' />
+                            <input type="email" placeholder='Email' data-aos="zoom-in-up" className='text_email'/>
                         </div>
                         <input type="text" placeholder='Subject' data-aos="zoom-in-up"/>
                         <textarea name='' id='' cols='30' rows='10' data-aos="zoom-in-down"></textarea>
