@@ -13,7 +13,7 @@ import Footer from '../common/Footer';
 const Pages = () => {
   return (
     <>
-        <Router>
+        <Router basename='/my_Portfolio'>
           <Header/>
             <Routes>
               <Route exact path='/'  element={<Home/>}/>

@@ -1,30 +1,30 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, EmailOutlined, Facebook, Twitter, Instagram } from "@mui/icons-material";
+import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, EmailOutlined, } from "@mui/icons-material";
 
 export const navlink = [
   {
     id: 1,
     url: "/",
-    text: "Home",
+    text: "Homeie",
   },
   {
     id: 2,
     url: "/about",
-    text: "About",
+    text: "Aboutie",
   },
   {
     id: 3,
     url: "/services",
-    text: "Services",
+    text: "Service",
   },
   {
     id: 4,
     url: "/portfolio",
-    text: "Portfolio",
+    text: "Portfolioe",
   },
   {
     id: 5,
     url: "/contact",
-    text: "Contact",
+    text: "Contact Me",
   },
 ];
 
@@ -177,19 +177,30 @@ export const contact = [
   }
 ];
 
+import {SiFiverr, SiUpwork} from 'react-icons/si'
+import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+
 export const social = [
   {
     id: 1,
-    icon: <Facebook />,
+    icon: <SiFiverr />,
+    url: "https://www.fiverr.com/s/wEXWxB",
   },
   {
     id: 2,
-    icon: <Twitter />,
+    icon: <SiUpwork />,
+    url: 'https://www.upwork.com/freelancers/~011e90e06f0ac699cf'
   },
   {
     id: 3,
-    icon: <Instagram />,
+    icon: <AiFillGithub />,
+    url: 'https://github.com/Amama-Fatima'
   },
+  {
+    id: 4,
+    icon: <AiFillLinkedin />,
+    url: 'google.com'
+  }
 ];
 
 

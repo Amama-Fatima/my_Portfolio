@@ -5,7 +5,7 @@ export default defineConfig( {
  
 
   
-    base: '/portfolio/',
+    base: "/my_Portfolio",
     plugins: [react()],
   
 });

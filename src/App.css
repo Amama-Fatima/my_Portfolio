@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primaryBackground: #193b53;
   --secondaryBackground: #22403d;
@@ -314,6 +315,7 @@ section{
     color: var(--primaryColor);
     margin-top: 50px;
     height: 160vh;
+    margin-left: -47px;
 }
 
 .services .heading{
@@ -451,13 +453,16 @@ article .box:hover .overlay::after{
 footer {
     text-align: center;
     background-color: var(--primaryBackground);
-    padding: 50px;
+    padding-top: 45px;
     margin-top: 50px;
     padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: -8px;
+    margin-left: -25px;
     width: 100vw;
     
     
@@ -481,6 +486,10 @@ footer {
     font-size: 30px;
     font-weight: 1000;
     color: brown;
+}
+footer .social-icon{
+  font-size: 30px;
+  margin: 0 10px;
 }
 
 footer .fiverr{
@@ -521,7 +530,7 @@ footer .fiverr{
 
 
 
-@media screen and (max-width: 1281px) and (max-height: 801px){
+@media screen and (width: 1280px) and (height: 800px){
   header{
     width: 100vw;
   }
@@ -576,6 +585,7 @@ footer .fiverr{
   }
   footer{
    width: 100vw;
+   margin-left: -6px;
   }
   .contact .right input{
     width: 440px;
@@ -612,9 +622,11 @@ footer .fiverr{
     width: 100vw;
     height: 8vh;
     line-height: 8vh;
+    margin-left: 0px;
   }
   footer{
     width: 100vw;
+    margin-left: 0px;
   
   }
 
@@ -739,14 +751,27 @@ footer .fiverr{
     width: 380px;
     
   }
-  .contact .right input{
-    
-    width: 400px;
+  .contact .right .flex input{
+    width: 210px;
+    height: 37px;
+    padding: 10px;
   }
+  
+  .contact .right input{
+    width: 395px;
+    padding: 10px;
+    height: 40px;
+  }
+  .contact .container{
+    margin: 0;
+    margin-left: 20px;
+
+  }
+  
   
   .contact .right textarea{
     height: 125px;
-    width: 400px;
+    width: 395px;
   }
   .contact .right button{
     height: 14px;
@@ -777,11 +802,12 @@ footer .fiverr{
     font-size: 18px;
   }
   header{
-    width: 411px ; 
+    width: 100vw ; 
+    margin-right: -9px;
   }
   footer{
     width: 100vw;
-    margin-left: 0px;
+    margin-left: -10px;
   }
   article{
     height: 80vh;
@@ -795,16 +821,21 @@ footer .fiverr{
     height: 60vh;
   }
   .contact .right .flex input{
-    width: 150px;
+    width: 130px;
+    height: 37px;
+    padding: 10px;
   }
+  
   .contact .right input{
-    width: 310px;
+    width: 290px;
+    padding: 10px;
+    height: 40px;
   }
   .contact .right textarea{
-    width: 310px;
+    width: 270px;
   }
   .contact .right button{
-    width: 310px;
+    width: 300px;
   }
 
   .contact .text_email{
@@ -831,7 +862,7 @@ footer .fiverr{
   }
   footer{
     width: 100vw;
-    margin-left: 0px;
+    margin-left: -4px;
   }
   header{
     width: 100vw;
@@ -840,6 +871,7 @@ footer .fiverr{
 @media screen and (max-width: 376px){
   header{
     width: 100vw;
+    margin-left: -7px;
   }
   .about{
     height: 90vh;
@@ -847,6 +879,16 @@ footer .fiverr{
   }
   .contact .right textarea{
     height: 100px;
+    width: 270px;
+   
+  }
+  .contact .right .flex input{
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+  }
+  .contact .right input{
+    width: 290px;
   }
   .contact .left p{
     margin-top: 10px;
@@ -887,6 +929,7 @@ footer .fiverr{
   footer{
     margin: 0px;
     width: 100vw;
+    margin-left: -5px;
     
   }
   
@@ -900,6 +943,7 @@ footer .fiverr{
   }
   header{
     width: 100vw;
+    margin-left: -11px;
   }
   
 }
@@ -941,17 +985,19 @@ footer .fiverr{
   }
   .contact .right .flex input{
     width: 100px;
+    height: 25px;
   }
 
   .contact .right textarea{
     height: 100px;
-    width: 208px;
+    width: 190px;
   }
   .contact .right input{
     width: 208px;
+    height: 25px;
   }
   .contact .right button{
-    width: 208px;
+    width: 230px;
   }
   .contact .left p{
     margin-left: -20px;
