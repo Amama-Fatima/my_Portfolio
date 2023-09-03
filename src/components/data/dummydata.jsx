@@ -116,7 +116,7 @@ export const project = [
 
 
 import d1 from '../../assets/port/demo.png';
-import d2 from "../../assets/port/d2.jpg";
+import d2 from "../../assets/port/demo2.png";
 import d3 from "../../assets/port/d3.jpg";
 import d4 from "../../assets/port/d4.jpg";
 import d5 from "../../assets/port/d5.jpg";
@@ -127,43 +127,46 @@ export const portfolio = [
   {
     id: 1,
     cover: d1,
-    name: "Click for Demo",
-    category: "marketing",
+    text: "Click for Demo",
+    url: ''
 
   },
   {
     id: 2,
     cover: d2,
-    name: "Click for Demo",
-    category: "design",
+    text: "Click for Demo",
+    url: 'https://amama-fatima.github.io/movix/'
   
   },
   {
     id: 3,
     cover: d3,
-    name: "Click for Demo",
-    category: "development",
+    text: "Click for Demo",
+    url: 'https://amama-fatima.github.io/gpt/'
    
   },
   {
     id: 4,
     cover: d4,
-    name: "Click for Demo",
-    category: "marketing",
+    text: "Click for Demo",
+    url: ''
+  
    
   },
   {
     id: 5,
     cover: d5,
-    name: "Click for Demo",
-    category: "design",
+    text: "Click for Demo",
+    url: ''
+    
    
   },
   {
     id: 6,
     cover: d6,
-    name: "Click for Demo",
-    category: "development",
+    text: "Click for Demo",
+    url: ''
+    
    
   },
 ];
