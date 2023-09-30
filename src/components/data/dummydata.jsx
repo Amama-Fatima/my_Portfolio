@@ -4,22 +4,22 @@ export const navlink = [
   {
     id: 1,
     url: "/",
-    text: "Homeie",
+    text: "Home",
   },
   {
     id: 2,
     url: "/about",
-    text: "Aboutie",
+    text: "About",
   },
   {
     id: 3,
     url: "/services",
-    text: "Service",
+    text: "Services",
   },
   {
     id: 4,
     url: "/portfolio",
-    text: "Portfolioe",
+    text: "Portfolio",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const about = [
   {
     id: 1,
     desc: "Hello! My name is Amama. I'm a dedicated front-end developer with a passion for creating engaging web experiences.",
-    desc1: "Proficient in HTML, CSS, JavaScript, React, and Bootstrap. Currently enhancing skills in Node.js and MongoDB.",
+    desc1: "Proficient in HTML, CSS, SCSS, JavaScript, React, and Bootstrap, Tailwind CSS, Next.js, Material UI and Git.",
     desc2: "I am currently working as a freelancer in front-end web development. I am also working on my own projects to enhance my skills."
     // cover: "./images/try.png",
   },
@@ -117,9 +117,9 @@ export const project = [
 
 import d1 from '../../assets/port/demo.png';
 import d2 from "../../assets/port/demo2.png";
-import d3 from "../../assets/port/d3.jpg";
-import d4 from "../../assets/port/d4.jpg";
-import d5 from "../../assets/port/d5.jpg";
+import d3 from "../../assets/port/nft.png";
+import d4 from "../../assets/port/cars.png";
+import d5 from "../../assets/port/books.png";
 import d6 from "../../assets/port/d6.jpg";
 
 
@@ -128,7 +128,7 @@ export const portfolio = [
     id: 1,
     cover: d1,
     text: "Click for Demo",
-    url: ''
+    url: 'https://amama-fatima.github.io/gpt/'
 
   },
   {
@@ -142,14 +142,14 @@ export const portfolio = [
     id: 3,
     cover: d3,
     text: "Click for Demo",
-    url: 'https://amama-fatima.github.io/gpt/'
+    url: 'https://nft-landing-page-ochre.vercel.app/home'
    
   },
   {
     id: 4,
     cover: d4,
     text: "Click for Demo",
-    url: ''
+    url: 'https://car-next-js-nu.vercel.app/'
   
    
   },
@@ -157,7 +157,7 @@ export const portfolio = [
     id: 5,
     cover: d5,
     text: "Click for Demo",
-    url: ''
+    url: 'https://books-react-alpha.vercel.app/'
     
    
   },
@@ -202,7 +202,7 @@ export const social = [
   {
     id: 4,
     icon: <AiFillLinkedin />,
-    url: 'google.com'
+    url: 'https://www.linkedin.com/in/amama-fatima/'
   }
 ];
 
